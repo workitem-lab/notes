@@ -1,4 +1,4 @@
-
+git commit -m "Java core advanced lecture: add SimpleThreadExample"
 ## Threads vs Tasks (key mental model)
 
 ### Threads
@@ -17,3 +17,10 @@ public class SimpleThreadExample {
     }
 }
 ```
+
+- **Example**: In this `SimpleThreadExample`, we explicitly create a new `Thread` object and start it.
+    
+- **Characteristics**:
+    - Runs concurrently with other threads.
+    - Managed directly by the operating system.
+    - Each thread has its own stack and incurs overhead in memory and scheduling.
